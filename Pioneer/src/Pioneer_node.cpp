@@ -11,8 +11,8 @@
 #define DEG2RAD(x) (M_PI / 180.0) * x
 #define RAD2DEG(x) (180.0 / M_PI) * x
 int mission_flag = 0;
-int stop = 1000;
-int Finish = 1001;
+int stop = 1;
+int Finish = 2;
 //////////////////////////////////////////////////////////////////////// line
 double tsl1401cl_data[TSL1401CL_SIZE];
 int LineSensor_threshold_Data[TSL1401CL_SIZE];
