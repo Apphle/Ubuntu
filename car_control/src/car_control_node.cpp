@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define SLAVE_ADDRESS 0x05 // 통신할때는 소가 필요하다
+#define SLAVE_ADDRESS 0x05 // 통신할때는 주소가 필요하다
 
 #define Max_R_Angle 30
 #define Max_L_Angle -30
@@ -21,7 +21,7 @@
 #define Max_Speed  255
 #define Min_Speed -255
 
-unsigned char protocol_data[9] = {0,}; //데이터 전송할 배
+unsigned char protocol_data[9] = {0,}; //데이터 전송할 배열
 
 union angle
 {
