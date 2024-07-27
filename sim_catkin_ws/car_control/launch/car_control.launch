@@ -1,0 +1,8 @@
+<launch>
+   <node pkg = "car_control"   type = "car_control_node_node"   name = "car_control"   output="screen">
+   
+   <param name = "steering_angle_topic"            type = "string" value  = "/steering_angle"/>
+   <param name = "car_speed_topic"             type = "string" value  = "/car_speed"/>
+
+  </node>
+</launch>
