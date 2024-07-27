@@ -1,0 +1,7 @@
+<launch>
+   <node pkg = "recursive_average_filta" type = "recursive_average_filta_node_node" name = "recursive_average_filta" output = "screen">
+   
+   <param name = "front_sonar_topic"       type = "string"      value = "/range_fornt"/>
+   
+   </node>
+</launch>

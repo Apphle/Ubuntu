@@ -1,0 +1,8 @@
+<launch>
+	<node pkg = "imu_correction"	type = "imu_correction_node_node"	name = "imu_correction_node" output = "screen">
+	
+	<param name = "yaw_topic"	    type = "string"	value = "/imu"/>
+    	<param name ="yaw_offset_degree_topic" type="string" value="/yaw_offset_degree"/>
+    	
+	</node>
+</launch>
