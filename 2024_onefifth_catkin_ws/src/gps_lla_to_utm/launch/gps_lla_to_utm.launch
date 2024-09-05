@@ -1,0 +1,7 @@
+<launch>
+   <node pkg = "gps_lla_to_utm" type = "gps_lla_to_utm_node_node" name = "lla_to_utm_node" output = "screen">
+   
+   <param name = "gps1_topic"       type = "string"      value = "/gps1/fix"/>   
+   
+   </node>
+</launch>
